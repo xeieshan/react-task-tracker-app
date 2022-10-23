@@ -41,3 +41,15 @@ code {
   font-size: 15px;
   font-family: inherit;
 }
+.taskCell {
+  background: rgb(236, 236, 236);
+  border: 1px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.taskItems {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-family: inherit;
+}
