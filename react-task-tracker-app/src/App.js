@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
+import CarouselView from "./components/CarouselView";
+
 // Root app component
 function App() {
   const name = "Zeeshan";
@@ -10,7 +12,8 @@ function App() {
       <Header navTitle="Task Tracker App" />
       <h1 className="title">Landing Page</h1>
       <h2 className="title">Task Tracker by '{condition ? name : "NONE"}'</h2>
-      <Tasks/>
+      {/* <CarouselView/> */}
+      <Tasks />
     </div>
   );
 }
